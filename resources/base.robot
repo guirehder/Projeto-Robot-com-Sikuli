@@ -1,7 +1,9 @@
 * Settings *
 Documentation   Tudo deve começar por aqui
 
-Library         SkuliLibrary
+Library         SikuliLibrary
+
+resource        actions/pdv.robot
 
 * Keywords *
 Carrega os Elementos do App
@@ -9,11 +11,11 @@ Carrega os Elementos do App
 
 Inicia Sessão
     Carrega os Elementos do App
-    Click           icone-app.png
+    Click                       icone-app.png
 
 Encerrar Sessão
     Stop Remote Server
 
 Finaliza Teste
     Capture Screen
-    Close Application
+    Close Application       BugBakery
